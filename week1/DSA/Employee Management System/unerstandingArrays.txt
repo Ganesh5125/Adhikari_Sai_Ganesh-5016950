@@ -1,0 +1,9 @@
+Understand Array Representation:
+Array Representation in Memory:
+Contiguous Memory Allocation: Arrays are stored in contiguous memory locations. This means that each element is stored next to the previous one in memory.
+Indexing: The elements can be accessed directly using their index, providing O(1) time complexity for access.
+
+Advantages of Arrays:
+Constant Time Access: Direct access to elements using indices.
+Memory Efficiency: Low overhead due to the contiguous memory allocation.
+Ease of Traversal: Simple to iterate over all elements

@@ -1,0 +1,10 @@
+Analysis:
+Time Complexity:
+Add Product: O(1) - Average case for insertion in HashMap.
+Update Product: O(1) - Average case for updating an entry in HashMap.
+Delete Product: O(1) - Average case for deletion in HashMap.
+Optimization:
+Caching: Implement a caching mechanism to store frequently accessed products.
+Batch Operations: Use batch processing for adding or updating multiple products at once to reduce overhead.
+Indexing: If the inventory grows significantly, consider using secondary indexing techniques to improve search times.
+Concurrency: Implement thread-safe mechanisms if the system needs to handle concurrent operations.

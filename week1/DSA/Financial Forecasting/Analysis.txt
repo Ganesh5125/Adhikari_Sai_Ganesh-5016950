@@ -1,0 +1,12 @@
+ Analysis:
+Time Complexity:
+The time complexity of this recursive method is O(n), where n is the number of periods. This is because each recursive call reduces the number of periods by 1, leading to n calls.
+Optimization:
+1.Memoization: To avoid recalculating results for the same parameters, you can use memoization. This involves storing previously computed results and retrieving them when needed. However, for this particular problem, the recursive depth is manageable, and memoization might not be necessary unless the recursion is deep or you have complex calculations.
+
+2.Iterative Approach: For problems with a large number of recursive calls, converting the recursion to an iterative approach can be more efficient and avoid stack overflow issues.
+
+Summary:
+->Recursion simplifies the problem by breaking it into smaller problems.
+->Time Complexity is O(n) for the recursive approach.
+->Optimization can be done through iterative methods or memoization for larger or more complex cases.

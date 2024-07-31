@@ -1,0 +1,18 @@
+Analysis:
+Time Complexity:
+1.Bubble Sort:
+Best Case: O(n) - When the array is already sorted.
+Average Case: O(n^2)
+Worst Case: O(n^2)
+
+2.Quick Sort:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2) - This can be mitigated by using a better pivot selection strategy.
+
+Which Algorithm is More Suitable?
+->Quick Sort is generally more suitable for sorting large datasets due to its average and best-case time complexity of O(n log n). It is much faster than Bubble Sort, which has an average and worst-case time complexity of O(n^2). Quick Sort's performance advantage becomes more apparent as the number of orders increases.
+->Bubble Sort is simple but inefficient for large datasets. It might be suitable for small datasets or educational purposes, but it is not recommended for production use on an e-commerce platform where performance is critical.
+
+Summary:
+For prioritizing high-value orders on an e-commerce platform, Quick Sort is the preferred algorithm due to its efficiency and scalability. Implementing Quick Sort will ensure that customer orders are sorted quickly and efficiently, leading to better performance and user experience.

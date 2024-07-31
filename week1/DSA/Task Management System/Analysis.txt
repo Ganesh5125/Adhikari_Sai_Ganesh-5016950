@@ -1,0 +1,17 @@
+Analysis:
+Time Complexity:
+Add Task: O(1) - Inserting at the beginning of the list.
+Search Task: O(n) - In the worst case, we may need to search through all nodes.
+Traverse Tasks: O(n) - We need to visit each node.
+Delete Task: O(n) - In the worst case, we may need to search through all nodes to find the one to delete.
+
+Advantages of Linked Lists Over Arrays for Dynamic Data:
+Dynamic Size: Linked lists can grow and shrink dynamically, unlike arrays which have a fixed size.
+Efficient Insertions/Deletions: Insertions and deletions at the beginning or end of a linked list are O(1) operations, whereas, for arrays, these operations can be O(n) due to the need to shift elements.
+Memory Utilization: Linked lists use memory proportional to the number of elements, whereas arrays may waste space if allocated size is larger than the number of elements.
+No Contiguous Memory Requirement: Linked lists do not require contiguous memory allocation, which can be beneficial in systems with fragmented memory.
+
+However, linked lists also have some disadvantages compared to arrays:
+Slower Access Times: Accessing an element by index in a linked list takes O(n) time compared to O(1) in arrays.
+Additional Memory Overhead: Each node in a linked list requires additional memory for storing the pointer to the next node.
+In conclusion, linked lists are more suitable for scenarios where the size of the data structure changes frequently and where insertions and deletions are common. For static data or scenarios requiring fast access by index, arrays may be more appropriate.

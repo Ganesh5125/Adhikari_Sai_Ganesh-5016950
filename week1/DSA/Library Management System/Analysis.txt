@@ -1,0 +1,25 @@
+Analysis:
+Time Complexity:
+1.Linear Search:
+Best Case: O(1) - The desired book is the first one in the list.
+Average Case: O(n) - On average, half of the books will be checked.
+Worst Case: O(n) - The desired book is the last one or not present.
+
+2.Binary Search:
+Best Case: O(1) - The desired book is at the midpoint initially.
+Average Case: O(log n) - Each step cuts the search interval in half.
+Worst Case: O(log n) - The desired book is found after log n steps.
+
+When to Use Each Algorithm:
+
+1.Linear Search:
+Unsorted Data: When the list of books is not sorted.
+Small Data Sets: For small lists, the difference in performance between linear and binary search is negligible.
+Occasional Searches: When search operations are infrequent, and the overhead of sorting the list is not justified.
+
+2.Binary Search:
+Sorted Data: When the list of books is already sorted by title.
+Large Data Sets: For large lists, binary search is significantly faster than linear search.
+Frequent Searches: When search operations are frequent, the initial cost of sorting the list is outweighed by the faster search times.
+Summary:
+In a library management system, linear search is simple and effective for unsorted or small datasets, while binary search is more efficient for sorted or large datasets. For optimal performance in a system with frequent search operations and a large dataset, maintaining a sorted list and using binary search is recommended.

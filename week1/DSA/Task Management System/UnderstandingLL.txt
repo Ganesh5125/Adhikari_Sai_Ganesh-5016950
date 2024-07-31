@@ -1,0 +1,11 @@
+Understand Linked Lists
+Types of Linked Lists
+1.Singly Linked List:
+Structure: Each node contains a data element and a reference (or pointer) to the next node in the sequence.
+Operations: Efficient at sequential access, insertion, and deletion from the beginning of the list. Less efficient for access to arbitrary elements.
+Use Cases: Suitable for applications where insertions and deletions are more frequent at the beginning or end of the list.
+
+2.Doubly Linked List:
+Structure: Each node contains a data element, a reference to the next node, and a reference to the previous node.
+Operations: Allows traversal in both directions. More efficient for insertions and deletions at both ends of the list.
+Use Cases: Useful for applications that require bidirectional traversal and more complex insertion/deletion operations.

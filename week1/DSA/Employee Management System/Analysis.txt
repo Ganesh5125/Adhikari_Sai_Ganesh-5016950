@@ -1,0 +1,17 @@
+Analysis:
+Time Complexity:
+Add Employee: O(1) - Adding an employee to the next available position.
+Search Employee: O(n) - In the worst case, you might need to check all employees.
+Traverse Employees: O(n) - You need to visit each employee once.
+Delete Employee: O(n) - In the worst case, you might need to search through all employees to find the one to delete.
+
+Limitations of Arrays:
+Fixed Size: Once initialized, the size of the array cannot be changed. This can lead to wasted space or insufficient capacity.
+Insertion and Deletion: Inserting or deleting elements requires shifting elements, leading to O(n) time complexity.
+Flexibility: Arrays are not as flexible as other data structures like linked lists or dynamic arrays (e.g., ArrayList in Java).
+
+When to Use Arrays:
+Constant Time Access: When you need fast access to elements by index.
+Predictable Size: When the number of elements is known and fixed.
+Memory Efficiency: When memory overhead should be minimized, and the number of elements is small to moderate.
+In conclusion, while arrays offer efficient access and low memory overhead, they are limited by their fixed size and inefficiency in insertion and deletion operations. For dynamic and flexible management of records, other data structures like linked lists, hash tables, or dynamic arrays (e.g., ArrayList) might be more suitable.

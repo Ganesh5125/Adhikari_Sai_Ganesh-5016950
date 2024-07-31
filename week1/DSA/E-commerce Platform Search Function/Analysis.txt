@@ -1,0 +1,15 @@
+Analysis:
+Time Complexity:
+->Linear Search:
+Best Case: O(1) - The target product is the first element.
+Average Case: O(n/2) -> O(n) - The target product is somewhere in the middle.
+Worst Case: O(n) - The target product is the last element or not present.
+
+->Binary Search:
+Best Case: O(1) - The target product is the middle element.
+Average Case: O(log n) - The array is repeatedly halved until the target is found.
+Worst Case: O(log n) - The target product is not present, and the array is fully halved.
+
+->Suitable Algorithm for the Platform:
+Binary Search is generally more suitable for an e-commerce platform because it is significantly faster (O(log n)) compared to linear search (O(n)) for large datasets. However, it requires the data to be sorted. In practice, maintaining a sorted dataset (e.g., using a balanced tree or periodic sorting) is manageable and offers substantial performance benefits for search operations.
+For an e-commerce platform with a large number of products, the faster search times provided by binary search can greatly enhance user experience by delivering quicker search results.

@@ -1,0 +1,6 @@
+Understand Recursive Algorithms:
+Concept of Recursion:
+Definition: Recursion in programming involves a method calling itself to solve a problem.
+Base Case: The condition that stops the recursion.
+Recursive Case: The part of the method where the method calls itself with modified parameters.
+Recursion is a programming technique where a method calls itself to solve a problem. It can simplify problems by breaking them down into smaller, more manageable subproblems. Recursion is particularly useful for problems that can be divided into similar subproblems or where the solution involves repetitive tasks.
